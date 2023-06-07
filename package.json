@@ -1,0 +1,16 @@
+{
+  "name": "Calculadora de Horas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "init.js",
+  "scripts": {
+    "start": "electron-packager . --icon=assets/favicon.ico"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^25.0.1",
+    "electron-packager": "^17.1.1"
+  }
+}

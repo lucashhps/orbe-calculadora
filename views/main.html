@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../styles/newStyle.css">
+    <link rel="icon" type="image/x-icon" href="./../assets/favicon.ico">
+    <title>CALCULADORA DE HORAS</title>
+</head>
+<body>
+    <div class="content">
+        <h1 class="titulo">CALCULADORA DE HORAS</h1>
+        
+        <div class="inputs">
+            <p>
+                <label for="faltas">Faltas</label>     
+                <input type="text" name="faltas" placeholder="Digite">
+            </p>
+    
+            <p>
+                <label for="mesesTotais">Meses cumpridos</label>     
+                <input type="text" name="mesesTotais" placeholder="Digite">
+            </p>
+        </div>
+    
+        
+        <p class="modo">
+            <label for="modo">Modo</label>
+    
+            <select name="modo" id="modo">
+                <option value="COMPUTAR NA UFCG (tripulantes)">COMPUTAR NA UFCG (tripulantes)</option>
+                <option value="COLOCAR NO CERTIFICADO (tripulantes)">COLOCAR NO CERTIFICADO (tripulantes)</option>
+                <option value="LIDERES (tanto UFCG quanto certificado)">LIDERES (tanto UFCG quanto certificado)</option>
+            </select>
+            
+        </p>
+        
+        <div class="button">
+            <button>CALCULAR</button>
+        </div>
+        
+        <p><h3 class="resultado"></h3></p>
+    </div>
+
+
+    <script src="./../app/calculators.js"></script>
+</body>
+</html>
